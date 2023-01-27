@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body class="main-content">
+ 
+	<header class="header">
+		<div class="header-logo">
+			<a href="../index.html"><img src="images/raedenpix_shadow.png"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../index.html"><img src="images/home_btn.png" alt=""></a></li>
+				<li><a href="../projects/projects.html"><img src="images/projects_btn.png" alt=""></a></li>
+				<li><a href="portfolio.html"><img src="images/portfolio_btn.png" alt=""></a></li>
+				<li><a href="../contact/contact.html"><img src="images/contact_btn.png" alt=""></a></li>
+				<li><a href="../commissions/commission.html"><img src="images/commissions_btn.png" alt=""></a></li>
+			</ul>
+		</nav>
+		<div class="commission">
+			<a href="../commissions/commission.html">Commissions Open!</a>
+		</div>
+	</header>
+
+	<div class="title">
+		<h1>Portfolio</h1>
+	</div>
+
+	<section class="section">
+		<div class="container">
+			<div class="carousel">
+				<input type="radio" name="slides" checked="checked" id="slide-1">
+				<input type="radio" name="slides" id="slide-2">
+				<input type="radio" name="slides" id="slide-3">
+				<input type="radio" name="slides" id="slide-4">
+				<input type="radio" name="slides" id="slide-5">
+				<input type="radio" name="slides" id="slide-6">
+				<ul class="carousel__slides">
+					<li class="carousel__slide">
+						<figure>
+							<div>
+								<img src="images/large_slideshow/1.png" alt="">
+							</div>
+							<figcaption>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<span class="credit">Photo: Tim Marshall</span>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="carousel__slide">
+						<figure>
+							<div>
+								<img src="images/large_slideshow/2.png" alt="">
+							</div>
+							<figcaption>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<span class="credit">Photo: Christian Joudrey</span>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="carousel__slide">
+						<figure>
+							<div>
+								<img src="images/large_slideshow/3.png" alt="">
+							</div>
+							<figcaption>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<span class="credit">Photo: Steve Carter</span>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="carousel__slide">
+						<figure>
+							<div>
+								<img src="images/large_slideshow/4.png" alt="">
+							</div>
+							<figcaption>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<span class="credit">Photo: Steve Carter</span>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="carousel__slide">
+						<figure>
+							<div>
+								<img src="images/large_slideshow/5.png" alt="">
+							</div>
+							<figcaption>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<span class="credit">Photo: Rosan Harmens</span>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="carousel__slide">
+						<figure>
+							<div>
+								<img src="images/large_slideshow/6.png" alt="">
+							</div> 
+							<figcaption>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								<span class="credit">Photo: Annie Spratt</span>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+				<ul class="carousel__thumbnails">
+					<li>
+						<label for="slide-1"><img src="images/large_slideshow/1.png" alt=""></label>
+					</li>
+					<li>
+						<label for="slide-2"><img src="images/large_slideshow/2.png" alt=""></label>
+					</li>
+					<li>
+						<label for="slide-3"><img src="images/large_slideshow/3.png" alt=""></label>
+					</li>
+					<li>
+						<label for="slide-4"><img src="images/large_slideshow/4.png" alt=""></label>
+					</li>
+					<li>
+						<label for="slide-5"><img src="images/large_slideshow/5.png" alt=""></label>
+					</li>
+					<li>
+						<label for="slide-6"><img src="images/large_slideshow/6.png" alt=""></label>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<div class="slider">
+		<div class="slide_viewer">
+		  <div class="slide_group">
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+		  </div>
+		</div>
+	  </div><!-- End Slider -->
+
+
+	  <div class="directional_nav">
+		<div class="previous_btn" title="Previous">
+		  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="45px" viewBox="-11 -11.5 65 66">
+			<g>
+			  <g>
+				<path fill="#474544" d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+				  c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"/>
+				<path fill="#474544" d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0	c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564	c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"/>
+			  </g>
+			</g>
+		  </svg>
+		</div>
+		<div class="next_btn" title="Next">
+		  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="45px" viewBox="-11 -11.5 65 66">
+			<g>
+			  <g>
+				<path fill="#474544" d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5	c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288	c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"/>
+				<path fill="#474544" d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035 			L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"/>
+			  </g>
+			</g>
+		  </svg>
+		</div>
+	  </div>
+
+	  <div class="shape-1"></div>
+	  <div class="shape-2"></div>
+
+	  <div class="okimg img1"><img src="images/char1.png" alt=""></div>
+	  <div class="okimg img2"><img src="images/char2.png" alt=""></div>
+	  <div class="okimg img3"><img src="images/char1.png" alt=""></div>
+	  <div class="okimg img4"><img src="images/char2.png" alt=""></div>
+	  <div class="okimg img5"><img src="images/char1.png" alt=""></div>
+
+	<div class="gallery-title"><h3>Gallery</h3></div>
+	<section class="gallery">
+
+		<section class="section-1">
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+		</section>
+		<section class="section-2">
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+			<div class="gallery1">
+				<a href="#openModal"><img class="image" src="images/1.png"></a>
+				<div id="openModal" class="modalDialog"><div>
+					<a href="#close" class="close">&times;</a>
+
+					<img class="gd1" src="images/2.png">
+					<h2>Description</h2>
+				</div>
+			</div>
+		</section>
+
+	</section>
+
+
+
+
+	<div class="footer">
+		<div class="conteiner">
+			<div class="footer-left">
+				<img onContextMenu="return false;" src="images/large_guy (2).png" alt="hero">
+				<div class="left-item">
+					<h2>Raeden</h2>
+					<h3>Pixel Artist & Model Designer</h3>
+					<h3>Last Update: January 2023</h3>
+				</div>
+			</div>
+			<div class="footer-right">
+				<ul class="icon-up">
+					<li><a class="dik" href="https://www.youtube.com/channel/UCpALBp_FeoKKJpccmbw2YAA" target="_blank"><img src="images/youtube_btn.png" alt=""></a></li>
+					<li>
+						<li>
+							<div class="wapper">
+								<a class="dik" href="#demo-modal"><img src="images/email_btn.png" alt=""></a>
+							</div>
+							<div id="demo-modal" class="modal">
+								<div class="modal__content">
+									<h1>Email</h1>
+									<p>Contact me through</p>
+									<div class="modal__footer">
+										<p>raider2891coc@gmail.com</p>
+									</div>
+									<a href="#" class="modal__close"><i class="fas fa-times"></i></a>
+								</div>
+							</div>
+						</li>
+					</li>
+					<li>
+						<div class="wepper">
+							<a class="dik" href="#demo-medal"><img src="images/discord_btn.png"></a>
+						</div>
+						<div id="demo-medal" class="medal">
+							<div class="medal__content">
+								<h1>Discord</h1>
+								<p>Reach me faster at discord!</p>
+								<div class="medal__footer">
+									<p>Raeden#8031</p>
+								</div>
+								<a href="#" class="medal__close"><i class="fas fa-times"></i></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="icon-up">
+					<li><a class="dik" href="https://www.instagram.com/minecraftfeverr/" target="_blank"><img src="images/instagram_button.png" alt=""></a></li>
+					<li><a class="dik" href="https://sketchfab.com/ItzRaeden/models" target="_blank"><img src="images/sketchfab_button.png" alt=""></a></li>
+					<li><a class="dik" href="https://linktr.ee/ItzRaeden" target="_blank"><img src="images/imgur_links.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<!--jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!--Stuffs-->-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!--Font Awesome-->
+	<script src="https://kit.fontawesome.com/d35b35c35a.js" crossorigin="anonymous"></script>
+	<!--Java Script-->
+	<script src="../activePage.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
