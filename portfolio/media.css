@@ -905,6 +905,14 @@
   .slider {
     margin-bottom: 0px;
   }
+  .footer-left img {
+    background-color: var(--color-secondary);
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #379683;
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .modal__footer p{
@@ -939,6 +947,7 @@
   }
 }
 @media only screen and (max-width: 390px) {
+  
   .modalDialog > div {
     position: relative;
     top: 43%;
@@ -982,30 +991,6 @@
   
 }
 @media only screen and (max-width: 350px) {
-  .ok1 {
-    background-color: var(--color-grey-1);
-    border-right: 0px solid #19181d;
-    border-bottom: 2px solid #19181d;
-    border-top: 5px solid #19181d;
-  }
-  .ok2 {
-    background-color: #cf285d;
-    border-left: 0px solid #19181d;
-    border-bottom: 2px solid #19181d;
-    border-top: 2px solid #19181d;
-  }
-  .ok3 {
-    background-color: #4c30c6;
-    border-right: 0px solid #19181d;
-    border-top: 2px solid #19181d;
-    border-bottom: 2px solid #19181d;
-  }
-  .ok4 {
-    background-color: #192887;
-    border-left: 0px solid #19181d;
-    border-top: 2px solid #19181d;
-    border-bottom: 5px solid #19181d;
-  }
 
   .container {
     width: 100%;

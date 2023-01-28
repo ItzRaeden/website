@@ -1730,6 +1730,14 @@ li .imgpositioning img {
     transition: 0.4s;
     margin-right: 0px;
   }
+  .footer-left img {
+    background-color: var(--color-primary);
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #19181d;
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .modal__footer p {
@@ -1775,6 +1783,14 @@ li .imgpositioning img {
   }
 }
 @media only screen and (max-width: 390px) {
+  .footer-left img {
+    background-color: var(--color-primary);
+    width: 128px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #19181d;
+    margin-right: 10px;
+  }
   .modal__footer p {
     color: var(--color-white);
     text-align: center;

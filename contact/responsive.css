@@ -192,7 +192,14 @@
   .footer-right ul {
     margin-left: -5px;
   }
-
+  .footer-left img {
+    background-color: var(--color-primary);
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #19181d;
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 390px) {
   .modal__footer p{
