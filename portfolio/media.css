@@ -491,7 +491,7 @@
   .header-logo {
     top: 2.8%;
     left: 5%;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     transition: 0.4s;
   }
@@ -876,11 +876,11 @@
     margin-left: 1.8%;
   }
   .footer-left img {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     width: 110px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #19181d;
+    border: 3px solid #379683;
     margin-right: 10px;
   }
 }
