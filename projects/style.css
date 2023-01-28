@@ -168,13 +168,6 @@
   .bokses .image-container .image:hover img {
     transform: scale(1.1);
   }
-  .dug h5 {
-    font-size: 16px;
-    position: absolute;
-    font-family: 'Michroma', sans-serif;
-    bottom: 3%;
-    left: 1%;
-  }
   .gud h5 {
     font-size: 16px;
     position: absolute;

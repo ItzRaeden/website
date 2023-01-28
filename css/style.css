@@ -1589,13 +1589,14 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 12.7%;
+    padding-left: 7.5%;
   }
   .client img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
+    margin-left: 25px;
   }
   .clients-title h1 {
     font-size: 30px;
@@ -1613,7 +1614,7 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 11%;
+    padding-left: 6%;
   }
   .footer-right {
     margin-top: 10px;
@@ -1659,14 +1660,14 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 10.4%;
+    padding-left: 5.5%;
   }
 }
 @media only screen and (max-width: 410px) {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 9.5%;
+    padding-left: 4%;
   }
   .bokses .image-container .image {
     height: 280px;
@@ -1727,7 +1728,7 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 8.5%;
+    padding-left: 3.5%;
   }
   .sec-left img {
     position: absolute;
@@ -1770,7 +1771,7 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 7.5%;
+    padding-left: 2%;
   }
   .flex-1 {
     display: none;
@@ -1803,7 +1804,7 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 6%;
+    padding-left: 0.4%;
   }
   .modal__footer p {
     color: var(--color-white);
@@ -1818,7 +1819,7 @@ li .imgpositioning img {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 5.5%;
+    padding-left: 0%;
   }
 }
 @media only screen and (max-width: 350px) {
