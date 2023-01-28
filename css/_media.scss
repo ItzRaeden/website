@@ -694,7 +694,7 @@
 .clients {
   display: block;
   padding-bottom: 25px;
-  padding-left: 15%;
+  padding-left: 12.7%;
 }
 .client img {
   border-radius: 50%;
@@ -718,7 +718,7 @@
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 12%;
+    padding-left: 11%;
   }
   .footer-right {
     margin-top: 10px;
@@ -760,12 +760,18 @@
     bottom: -2%;
   }
 }
-
+@media only screen and (max-width: 420px) {
+  .clients {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 10.4%;
+  }
+}
 @media only screen and (max-width: 410px) {
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 10%;
+    padding-left: 9.5%;
   }
   .bokses .image-container .image {
     height: 280px;
@@ -827,7 +833,7 @@
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 9%;
+    padding-left: 8.5%;
   }
   .sec-left img {
     position: absolute;
@@ -872,7 +878,7 @@
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 8%;
+    padding-left: 7.5%;
   }
   .flex-1 {
     display: none;
@@ -906,7 +912,7 @@
   .clients {
     display: block;
     padding-bottom: 25px;
-    padding-left: 6.5%;
+    padding-left: 6%;
   }
   .modal__footer p{
     color: var(--color-white);

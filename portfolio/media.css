@@ -784,30 +784,6 @@
   .shape-1 {
     display: none;
   }
-  .ok1 {
-    background-color: var(--color-grey-1);
-    border-right: 0px solid #19181d;
-    border-bottom: 2px solid #19181d;
-    border-top: 4px solid #19181d;
-  }
-  .ok2 {
-    background-color: #bbb8c7;
-    border-left: 0px solid #19181d;
-    border-bottom: 2px solid #19181d;
-    border-top: 2px solid #19181d;
-  }
-  .ok3 {
-    background-color: #7564b7;
-    border-right: 0px solid #19181d;
-    border-top: 2px solid #19181d;
-    border-bottom: 2px solid #19181d;
-  }
-  .ok4 {
-    background-color: #192887;
-    border-left: 0px solid #19181d;
-    border-top: 2px solid #19181d;
-    border-bottom : 4px solid #19181d;
-  }
   .item {
     height: 300px;
   }
@@ -861,7 +837,7 @@
   .title h1 {
     font-size: 40px;
     position: absolute;
-    top: 150px;
+    top: 155px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -877,6 +853,14 @@
   }
   .section-2 {
     margin-left: 0px;
+  }
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -15px;
+    font-family: 'Michroma', sans-serif;
   }
 }
 @media only screen and (max-width: 430px) {
@@ -904,14 +888,40 @@
     margin-left: -5px;
   }
   .title h1 {
-    font-size: 36px;
+    font-size: 38px;
     position: absolute;
-    top: 150px;
+    top: 160px;
     left: 50%;
     transform: translateX(-50%);
   }
+  .slider {
+    margin-bottom: 0px;
+  }
 }
 @media only screen and (max-width: 400px) {
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -25px;
+    font-family: 'Michroma', sans-serif;
+  }
+  .previous_btn {
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    position: absolute;
+    top: 20px;
+  }
+  
+  .next_btn {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
   .modalDialog > div {
     position: relative;
     top: 43%;
@@ -931,8 +941,24 @@
   .footer-right ul {
     margin-left: -19px;
   }
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -30px;
+    font-family: 'Michroma', sans-serif;
+  }
 }
 @media only screen and (max-width: 380px) {
+  .modal__footer p{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -38px;
+    font-family: 'Michroma', sans-serif;
+  }
   .modalDialog > div {
     position: relative;
     top: 43%;
@@ -945,13 +971,7 @@
   .footer-right ul {
     margin-left: -27px;
   }
-  .title h1 {
-    font-size: 34px;
-    position: absolute;
-    top: 150px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  
 }
 @media only screen and (max-width: 350px) {
   .ok1 {
@@ -1043,7 +1063,7 @@
     }
     .modal__footer p{
       margin-left: -10px;
-      font-size: 20px;
+      font-size: 20px; 
     }
     .contact {
       padding-bottom: 40px;
@@ -1055,7 +1075,10 @@
     .item {
       height: 250px;
     }
-
+    .modal__footer p{
+      margin-left: -10px;
+      font-size: 20px;
+    }
 }
 @media only screen and (max-width: 340px) {
   .footer-right {

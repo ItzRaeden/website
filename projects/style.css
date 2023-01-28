@@ -526,3 +526,8 @@ a:is(:link, :active, :visited).active {
   text-decoration: none;
   font-size: 20px;
 }
+
+
+.okimg {
+  display: hidden;
+}

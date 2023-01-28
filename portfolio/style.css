@@ -438,11 +438,14 @@ figcaption {
   margin: 0px auto;
   max-width: 940px;
   display: none;
-  margin-top: 170px;
-  padding-bottom: 40px;
+  margin-top: 160px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
 }
-
+.slider img {
+  width: 100%;
+  object-fit: cover;
+}
 .slide_viewer {
   height: 260px;
   overflow: hidden;
@@ -467,26 +470,26 @@ figcaption {
 }
 
 .slide:nth-of-type(1) {
-  background: #D7A151;
+  background: var(--color-primary);
 }
 
 .slide:nth-of-type(2) {
-  background: #F4E4CD;
+  background: var(--color-primary);
 }
 
 .slide:nth-of-type(3) {
-  background: #C75534;
+  background: var(--color-primary);
 }
 
 .slide:nth-of-type(4) {
-  background: #D1D1D4;
+  background: var(--color-primary);
 }
 
 .slide:nth-of-type(5) {
-  background: #16a253;
+  background: var(--color-primary);
 }
 .slide:nth-of-type(6) {
-  background: #e9ad2c;
+  background: var(--color-primary);
 }
 
 .slide_buttons {
@@ -527,7 +530,7 @@ a.slide_btn {
   left: 100px;
   margin: auto;
   position: absolute;
-  top: 0;
+  top: 15px;
 }
 
 .next_btn {
@@ -535,7 +538,7 @@ a.slide_btn {
   margin: auto;
   position: absolute;
   right: 100px;
-  top: 0;
+  top: 15px;
 }
 
 .previous_btn, .next_btn {
