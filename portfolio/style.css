@@ -531,6 +531,7 @@ a.slide_btn {
   margin: auto;
   position: absolute;
   top: 15px;
+  color: var(--color-white);
 }
 
 .next_btn {
