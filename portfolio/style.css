@@ -155,8 +155,14 @@ position: absolute;
   animation: loader-inner 2s infinite ease-in;
 }
 .loader img {
-  width: 150px;
-  height: 150px;
+  width: 190px;
+  height: 135px;
+}
+@media only screen and (min-width: 1900px) {
+  .loader img {
+    width: 230px;
+    height: 164px;
+  } 
 }
 
 
@@ -281,7 +287,7 @@ position: absolute;
 .carousel__slide figcaption {
   align-self: flex-end;
   flex: 0 0 auto;
-  width: 30%;
+  width: 35%;
   min-width: 150px;
 }
 figcaption {
@@ -576,7 +582,7 @@ a.slide_btn {
 figcaption {
   font-family: 'Michroma', sans-serif;
   font-size: 20px;
-  margin-bottom: 25.2%;
+  margin-bottom: 30%;
 }
 .previous_btn:hover, .next_btn:hover {
   opacity: 1;
