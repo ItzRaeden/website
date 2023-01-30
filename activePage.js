@@ -22,3 +22,7 @@ document.querySelectorAll('.image-container img').forEach(image =>{
     document.querySelector('.popup-image img').src = image.getAttribute('src');
   }
 });
+
+$(window).on("load", function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
