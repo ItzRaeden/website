@@ -133,6 +133,7 @@
     }
   }
   .header-logo {
+    display: none;
     top: 3.1%;
     left: 5%;
     text-shadow: 0px 3px 4px #379683;
@@ -169,7 +170,7 @@
 }
 .left-header {
   background-color: var(--color-primary);
-  padding-top: 205px;
+  padding-top: 190px;
 }
 .left-header .hero {
   margin-left: 25%;
