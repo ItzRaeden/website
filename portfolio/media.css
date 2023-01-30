@@ -479,7 +479,7 @@
   }
 
   figcaption {
-    margin-bottom: 30.1%;
+    margin-bottom: 31.7%;
     font-size: 24px;
   }
   .gallery-title h3 {
@@ -566,7 +566,7 @@
     right: 330px;
   }
   figcaption {
-    margin-bottom: 30.7%;
+    margin-bottom: 32.1%;
     font-size: 24px;
   }
   .modalDialog > div {
@@ -585,6 +585,9 @@
     top: 142px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .carousel__slide figcaption {
+    width: 25%;
   }
 }
 @media only screen and (max-width: 450px) {
