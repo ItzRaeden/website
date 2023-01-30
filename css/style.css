@@ -781,6 +781,10 @@ li .imgpositioning img {
   margin-left: 5px;
 }
 
+.shadow {
+  margin-left: 25px;
+}
+
 .flex-2 {
   align-items: center;
   text-align: center;
@@ -1467,6 +1471,9 @@ li .imgpositioning img {
   }
 }
 @media only screen and (max-width: 450px) {
+  .shadow {
+    margin-left: 5px;
+  }
   .bokses .image-container .image {
     height: 300px;
     width: 400px;
