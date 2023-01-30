@@ -28,7 +28,7 @@ document.querySelectorAll('.image-container img').forEach(image =>{
 });
 
 $(window).on("load", function(){
-  $(".loader-wrapper").delay("900").fadeOut();
+  $(".loader-wrapper").delay("1000").fadeOut();
 });
 
 
