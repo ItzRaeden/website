@@ -450,21 +450,6 @@ figcaption {
   color: var(--color-white);
 }
 
-/*Modal*/
-
-
-.floating {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  color: white;
-}
-  @keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 10px); }
-  100%   { transform: translate(0, -0px); }
-}
 
 
 /*2nd Slider*/
@@ -849,7 +834,7 @@ figcaption {
   font-size: 40px;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  display: flex;
+  display: flex; 
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 25px;
