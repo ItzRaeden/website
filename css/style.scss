@@ -942,16 +942,23 @@
   margin: 0px auto;
   max-width: 940px;
   display: none;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   background-color: var(--color-secondary);
+}
+.slider h1 {
+  font-size: 22.5px;
+  padding-bottom: 10px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000000;
 }
 .slider img {
   width: 100%;
   object-fit: cover;
 }
 .slide_viewer {
-  height: 290px;
+  height: 257px;
   overflow: hidden;
   position: relative;
 }
@@ -995,6 +1002,12 @@
 .slide:nth-of-type(6) {
   background: var(--color-primary);
 }
+.slide:nth-of-type(7) {
+  background: var(--color-primary);
+}
+.slide:nth-of-type(8) {
+  background: var(--color-primary);
+}
 
 .slide_buttons {
   left: 0;
@@ -1025,7 +1038,7 @@ a.slide_btn {
   margin: 0 auto;
   max-width: 940px;
   position: relative;
-  top: -200px;
+  top: -175px;
   display: none;
 }
 

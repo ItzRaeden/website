@@ -743,21 +743,6 @@
 .flex-2 a {
   background-color: var(--color-secondary);
 }
-.about {
-  background-color: var(--color-secondary);
-}
-.about-container .left-about h4 {
-  text-shadow: 1px 1px 3px #000000;
-}
-.about-container .left-about p {
-  text-shadow: 1px 1px 3px #000000;
-}
-.about-container .right-about .about-item:hover {
-  border: 1.5px solid var(--color-primary);
-}
-.about-container .right-about .about-item:hover .abt-text .small-text::before {
-  background-color: var(--color-primary);
-}
 .clients-title {
   background-color: var(--color-primary);
 }
