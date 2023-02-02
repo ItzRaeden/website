@@ -81,8 +81,8 @@
 
 @media screen and (max-width:1024px) {
     .hero img{
-        margin-left: 30px;
-        margin-right: 50px;
+        margin-left: 12px;
+        margin-right: 0px;
 
       .sec-left img {
         padding-right: 20px;
@@ -202,10 +202,18 @@
     .div4{
         margin-right: 15px;
     }
+    .left-header .hero {
+      margin-left: 11%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+  .left-header .hero {
+    margin-left: 14.5%;
+  }
 }
 @media only screen and (min-width: 1600px) {
   .left-header .hero {
-    margin-left: 30%;
+    margin-left: 17%;
   }
       .proj-1 {
         height: 450px;
@@ -247,7 +255,7 @@
 } 
 @media only screen and (min-width: 1800px) {
   .left-header .hero {
-    margin-left: 32%;
+    margin-left: 19%;
   }
       .proj-1 {
         height: 550px;
@@ -259,9 +267,10 @@
       .proj-1 {
         height: 600px;
       }
+
       .left-header {
         background-color: var(--color-primary);
-        padding-top: 200px;
+        padding-top: 140px;
       }
       .commission {
         font-size: 13px;
@@ -273,6 +282,21 @@
         margin-left: 20px;
         transition: 0.2s linear;
         background-color: var(--color-primary);
+      }
+      .bottom {
+        width: 480px;
+        height: 576px;
+      }
+      .top {
+        width: 480px;
+        height: 576px;
+      }
+      .right-header {
+        padding-top: 170px;
+        padding-bottom: 70px;
+      }
+      .left-header .hero {
+        margin-left: 0%;
       }
 }
 
@@ -314,7 +338,7 @@
   }
   .left-header {
     background-color: var(--color-primary);
-    padding-top: 235px;
+    padding-top: 140px;
   }
   .thing {
     background-color: var(--color-secondary);
@@ -361,7 +385,7 @@
     font-size: 20px;
   }
   .left-header .hero {
-    margin-left: 34%;
+    margin-left: -1%;
     margin-bottom: 25px;
   }
       .sec-right img{
@@ -412,11 +436,15 @@
         transition: 0.4s;
         font-family: 'Michroma', sans-serif;
       }
+      .left-header .hero {
+        margin-left: -3%;
+        margin-bottom: 25px;
+      }
 }
 @media only screen and (min-width: 2300px) {
   
   .left-header .hero {
-    margin-left: 36%;
+    margin-left: -4%;
   }
   .sec-mid h1{
     font-size: 50px;
@@ -541,8 +569,8 @@
   .bokses .image-container .image {
     height: 300px;
     width: 400px;
-    border: 5px solid #19181d;
-    border-bottom: 45px solid #19181d;
+    border: 5px solid #379683;
+    border-bottom: 45px solid #379683;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
   }
@@ -570,7 +598,7 @@
   
   .flex-2 a {
     font-family: 'Michroma', sans-serif;
-    padding: 3px 10px;
+    padding: 3px 13px;
     background-color: var(--color-primary);
     font-size: 14px;
   }
@@ -589,7 +617,24 @@
     top: 7.1%;
   }
   .left-header {
-    padding-bottom: 0px;
+    padding-bottom: 50px;
+    background-image: url("../images/main_page_slideshow_background.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+  }
+  .left-header .hero {
+    display: none;
+  }
+  .left-header .hiro img{
+    display: block;
+    width: 370px;
+    height: 444px;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: 6fr;
   }
     .gallery h1 {
       padding-top: 25px;
@@ -734,29 +779,29 @@
   text-shadow: 1px 1px 3px #000000;
 }
 .left-header {
-  background-color: var(--color-primary);
+  background-image: url("../images/main_page_slideshow_background.gif");
   padding-top: 160px;
 }
 .thing {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 .flex-2 a {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 .clients-title {
-  background-color: var(--color-primary);
-}
-.clients {
-  background-color: var(--color-primary);
-}
-.client img {
-  border: 3px solid #379683;
-}
-.bokses {
   background-color: var(--color-secondary);
 }
-.bokses-a {
+.clients {
+  background-color: var(--color-secondary);
+}
+.client img {
+  border: 3px solid #19181d;
+}
+.bokses {
   background-color: var(--color-primary);
+}
+.bokses-a {
+  background-color: var(--color-secondary);
 }
 }
 @media only screen and (max-width: 430px) {
@@ -796,6 +841,7 @@
     border: 3px solid #379683;
     margin-right: 10px;
   }
+ 
 }
 @media only screen and (max-width: 430px) {
   .sec-left img {
@@ -819,6 +865,9 @@
     padding-bottom: 25px;
     padding-left: 5.5%;
   }
+  .hero img{
+    margin-left: 0px;
+  }
 }
 @media only screen and (max-width: 410px) {
   .clients {
@@ -829,8 +878,8 @@
   .bokses .image-container .image {
     height: 280px;
     width: 380px;
-    border: 5px solid #19181d;
-    border-bottom: 45px solid #19181d;
+    border: 5px solid #379683;
+    border-bottom: 45px solid #379683;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
   }
@@ -881,6 +930,7 @@
     border: 3px solid #379683;
     margin-right: 10px;
   }
+  
 }
 @media only screen and (max-width: 400px) {
   .modal__footer p{
@@ -926,6 +976,7 @@
     transition: 0.4s;
     margin-right: 0px;
   }
+  
 }
 @media only screen and (max-width: 390px) {
   .footer-left img {
@@ -962,20 +1013,19 @@
     top: 46%;
     left: -7.5%;
   }
-  .hero img{
-    margin-right: -5px;
-}
+ 
   .footer-right ul {
     margin-left: -19px;
   }
   .bokses .image-container .image {
     height: 270px;
     width: 360px;
-    border: 5px solid #19181d;
-    border-bottom: 45px solid #19181d;
+    border: 5px solid #379683;
+    border-bottom: 45px solid #379683;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
   }
+ 
 }
 @media only screen and (max-width: 380px) {
   .clients {
@@ -991,12 +1041,18 @@
     margin-left: -38px;
     font-family: 'Michroma', sans-serif;
   }
+  .hero img{
+    margin-left: -21px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .clients {
     display: block;
     padding-bottom: 25px;
     padding-left: 0%;
+  }
+  .hero img{
+    margin-left: -23px;
   }
 }
 @media only screen and (max-width: 350px) {

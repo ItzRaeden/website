@@ -166,17 +166,49 @@
 .boxes {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  
 }
 .left-header {
   background-color: var(--color-primary);
-  padding-top: 190px;
+  padding-top: 170px;
 }
 .left-header .hero {
-  margin-left: 25%;
   margin-bottom: 40px;
-  
+  margin-left: 9%;
 }
+.bottom {
+  width: 370px;
+  height: 444px;
+}
+.top {
+  width: 370px;
+  height: 444px;
+}
+.hiro img{
+  display: none;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
 .header-btn {
   display: flex;
   justify-content: center;
@@ -944,11 +976,11 @@
   display: none;
   padding-top: 30px;
   padding-bottom: 40px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 .slider h1 {
   font-size: 22.5px;
-  padding-bottom: 10px;
+  padding-bottom: 18px;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   text-shadow: 1px 1px 3px #000000;
