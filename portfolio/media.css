@@ -205,7 +205,7 @@
   }
   .img5 {
     position: absolute;
-    top: 2700px;
+    top: 2630px;
     right: 70px;
   }
 
@@ -244,6 +244,20 @@
 }
 
 @media only screen and (min-width: 1900px) {
+  .body img {
+    width: 975px;
+    height: 609px;
+  }
+  .tile {
+    font-size: 20px;
+    font-family: 'Michroma', sans-serif;
+    background-color: var(--color-primary);
+    width: 975px;
+    padding-left: 10px;
+    border: 2px solid #379683;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .continer button img {
     width: 650px;
     height: 406px;
@@ -252,27 +266,27 @@
   .img1 {
     position: absolute;
     top: 1210px;
-    right: 115px;
+    right: 65px;
   }
   .img2 {
     position: absolute;
-    top: 1580px;
-    left: 115px;
+    top: 1630px;
+    left: 65px;
   }
   .img3 {
     position: absolute;
-    top: 1980px;
-    right: 115px;
+    top: 2100px;
+    right: 65px;
   }
   .img4 {
     position: absolute;
-    top: 2360px;
-    left: 115px;
+    top: 2520px;
+    left: 65px;
   }
   .img5 {
     position: absolute;
-    top: 2750px;
-    right: 115px;
+    top: 2930px;
+    right: 65px;
   }
 
   figcaption {
@@ -303,58 +317,32 @@
     font-size: 47px;
   }
 }
-@media only screen and (min-width: 1950px) {
-  .img1 {
-    position: absolute;
-    top: 1260px;
-    right: 135px;
-  }
-  .img2 {
-    position: absolute;
-    top: 1630px;
-    left: 135px;
-  }
-  .img3 {
-    position: absolute;
-    top: 2030px;
-    right: 135px;
-  }
-  .img4 {
-    position: absolute;
-    top: 2410px;
-    left: 135px;
-  }
-  .img5 {
-    position: absolute;
-    top: 2800px;
-    right: 135px;
-  }
-}
+
 @media only screen and (min-width: 2000px) {
   .img1 {
     position: absolute;
-    top: 1330px;
-    right: 100px;
+    top: 1310px;
+    right: 65px;
   }
   .img2 {
     position: absolute;
-    top: 1760px;
-    left: 100px;
+    top: 1690px;
+    left: 65px;
   }
   .img3 {
     position: absolute;
-    top: 2210px;
-    right: 100px;
+    top: 2170px;
+    right: 65px;
   }
   .img4 {
     position: absolute;
-    top: 2660px;
-    left: 100px;
+    top: 2580px;
+    left: 65px;
   }
   .img5 {
     position: absolute;
-    top: 3070px;
-    right: 100px;
+    top: 3010px;
+    right: 65px;
   }
   
 
@@ -410,55 +398,55 @@
 @media only screen and (min-width: 2100px) {
   .img1 {
     position: absolute;
-    top: 1380px;
-    right: 130px;
+    top: 1370px;
+    right: 110px;
   }
   .img2 {
     position: absolute;
-    top: 1810px;
-    left: 130px;
+    top: 1770px;
+    left: 110px;
   }
   .img3 {
     position: absolute;
-    top: 2260px;
-    right: 130px;
+    top: 2240px;
+    right: 110px;
   }
   .img4 {
     position: absolute;
-    top: 2710px;
-    left: 130px;
+    top: 2630px;
+    left: 110px;
   }
   .img5 {
     position: absolute;
-    top: 3140px;
-    right: 130px;
+    top: 3070px;
+    right: 110px;
   }
 }
 @media only screen and (min-width: 2200px) {
   .img1 {
     position: absolute;
-    top: 1430px;
-    right: 180px;
+    top: 1400px;
+    right: 110px;
   }
   .img2 {
     position: absolute;
-    top: 1860px;
-    left: 180px;
+    top: 1810px;
+    left: 110px;
   }
   .img3 {
     position: absolute;
-    top: 2310px;
-    right: 180px;
+    top: 2270px;
+    right: 110px;
   }
   .img4 {
     position: absolute;
-    top: 2760px;
-    left: 180px;
+    top: 2670px;
+    left: 110px;
   }
   .img5 {
     position: absolute;
-    top: 3200px;
-    right: 180px;
+    top: 3110px;
+    right: 110px;
   }
   .modalDialog > div {
     margin-left: 27%;
@@ -483,12 +471,12 @@
   }
   .img4 {
     position: absolute;
-    top: 2810px;
+    top: 2770px;
     left: 220px;
   }
   .img5 {
     position: absolute;
-    top: 3250px;
+    top: 3180px;
     right: 220px;
   }
 
@@ -541,12 +529,12 @@
   }
   .img4 {
     position: absolute;
-    top: 2860px;
+    top: 2830px;
     left: 270px;
   }
   .img5 {
     position: absolute;
-    top: 3300px;
+    top: 3230px;
     right: 270px;
   }
 }
@@ -569,15 +557,15 @@
     top: 2460px;
     right: 330px;
   }
-  .img4 {
+  img4 {
     position: absolute;
-    top: 2910px;
-    left: 330px;
+    top: 2830px;
+    left: 270px;
   }
   .img5 {
     position: absolute;
-    top: 3350px;
-    right: 330px;
+    top: 3230px;
+    right: 270px;
   }
   figcaption {
     margin-bottom: 32.1%;
