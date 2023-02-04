@@ -772,6 +772,26 @@ figcaption {
 .okimg {
   display: none;
 }
+.continer button img {
+  width: 550px;
+  height: 343px;
+}
+.viewer {
+  background-color: var(--color-secondary);
+}
+.viewer2 {
+  background-color: var(--color-secondary);
+}
+.viewer3 {
+  background-color: var(--color-secondary);
+}
+.viewer4 {
+  background-color: var(--color-secondary);
+}
+.viewer5 {
+  background-color: var(--color-secondary);
+  padding-bottom: 70px;
+}
 
 
 
@@ -785,14 +805,12 @@ figcaption {
 }
 
 .btn {
-  border: 1px solid #ccc;
-  border-radius: 4px;
   cursor: pointer;
   outline: none;
 }
 
 .btn:active {
-  transform: scale(0.9);
+  transform: scale(0.97);
 }
 
 .close-modal {

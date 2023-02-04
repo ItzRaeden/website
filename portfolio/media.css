@@ -145,17 +145,17 @@
   }
   .img3 {
     position: absolute;
-    top: 1910px;
+    top: 1880px;
     right: 30px;
   }
   .img4 {
     position: absolute;
-    top: 2290px;
+    top: 2230px;
     left: 30px;
   }
   .img5 {
     position: absolute;
-    top: 2680px;
+    top: 2580px;
     right: 30px;
   }
   .modalDialog > div {
@@ -185,12 +185,12 @@
 @media only screen and (min-width: 1800px) {
   .img1 {
     position: absolute;
-    top: 1160px;
+    top: 1200px;
     right: 70px;
   }
   .img2 {
     position: absolute;
-    top: 1530px;
+    top: 1550px;
     left: 70px;
   }
   .img3 {
@@ -237,13 +237,18 @@
   .item {
     height: 550px;
   }
-}
-
-@media only screen and (min-width: 1900px) {
   .carousel__slide figcaption {
 
     width: 32%;
   }
+}
+
+@media only screen and (min-width: 1900px) {
+  .continer button img {
+    width: 650px;
+    height: 406px;
+  }
+  
   .img1 {
     position: absolute;
     top: 1210px;
@@ -293,6 +298,9 @@
   .commission {
     font-size: 13px;
     top: 6%;
+  }
+  .gallery-title h3 {
+    font-size: 47px;
   }
 }
 @media only screen and (min-width: 1950px) {
@@ -348,9 +356,7 @@
     top: 3070px;
     right: 100px;
   }
-  .gallery-title h3 {
-    font-size: 43px;
-  }
+  
 
   .modalDialog > div {
     margin-left: 28%;
