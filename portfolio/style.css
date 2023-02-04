@@ -755,84 +755,6 @@ figcaption {
 
 /*Gallery*/
 
-.modalDialog {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 99999;
-  opacity:0;
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
-  pointer-events: none;
-}
-.modalDialog:target {
-  opacity:1;
-  pointer-events: auto;
-}
-.modalDialog > div {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 5px 20px;
-  border-radius: 10px;
-  margin-left: 15%;
-}
-.gallery1 h2 {
-  font-family: 'Michroma';
-  margin-top: -10px;
-  text-indent: 10px;
-  font-size: 23px;
-  background-color: var(--color-secondary);
-  width: 950px;
-  padding: 9px 0;
-
-}
-.close {
-  font-size: 35px;
-  top: 0px;
-  background-color: var(--color-secondary);
-  padding: 0 12px;
-  margin-left: 960px;
-  transition: 0.4s;
-}
-.close:hover {
-  background-color: var(--color-primary);
-}
-
-.gallery1 .gd1 {
-  width: 950px;
-  height: 530px;
-  border: 6px solid #19181d;
-}
-
-
-.gallery {
-  display: flex;
-  justify-content: center;
-  background: var(--color-secondary);
-  padding-bottom: 25px;
-}
-.gallery a .image { 
-  width: 580px;
-  height: 350px;
-  margin-bottom: 30px;
-  border: 5px solid #19181d;
-  overflow: hidden;
-  transition: 0.2s linear;
-}
-.gallery a .image:hover{
-  transform: scale(1.02);
-}
-.section-1 {
-  margin-right: 15px;
-}
-.section-2 {
-  margin-left: 15px;
-}
 .gallery-title {
   background-color: var(--color-secondary);
 }
@@ -847,8 +769,78 @@ figcaption {
   text-shadow: 1px 1px 3px #000000;
 }
 
-
-
 .okimg {
   display: none;
+}
+
+
+
+
+
+.continer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.metal {
+  position: fixed;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: top 0.3s ease-in-out;
+  border: 1px solid #379683;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.metal.active {
+  top: 50%;
+}
+
+.metal .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.metal .body {
+  display: flex;
+  align-items: center;
+  margin-right: 50%;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#overlay.active {
+  display: block;
 }

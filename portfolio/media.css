@@ -2,9 +2,7 @@
       .carousel {
         padding-top: 25px;
       }
-      .gallery {
-        padding-bottom: 50px;
-      }
+      
       .gallery h1 {
         padding-top: 30px;
       }
@@ -353,10 +351,7 @@
   .gallery-title h3 {
     font-size: 43px;
   }
-  .gallery1 a .image {
-    width: 650px;
-    height: 406px; 
-  }
+
   .modalDialog > div {
     margin-left: 28%;
   }
@@ -604,14 +599,7 @@
   }
 }
 @media only screen and (max-width: 450px) {
-  .gallery {
-    display: block;
-    padding-bottom: 15px;
-  }
-  .gallery1 a .image { 
-    width: 380px;
-    height: 223px;
-  }
+
   .section-1 .gallery1 a img {
     margin-right: 0px;
   }
@@ -629,23 +617,8 @@
     display: flex;
     justify-content: center;
   }
-  .gallery1 .gd1 {
-    width: 950px;
-    height: 530px;
-    border: 10px solid #19181d;
-  }
-  .gallery1 .gd1 {
-    width: 370px;
-    height: 206px;
-    border: 6px solid #19181d;
-  }
-  .gallery1 h2 {
-    margin-top: -10px;
-    font-size: 16px;
-    background-color: var(--color-secondary);
-    width: 370px;
-    padding: 9px 0;
-  }
+  
+  
   .modalDialog > div {
     position: relative;
     top: 43%;
