@@ -727,8 +727,30 @@
     margin-left: -15px;
     font-family: 'Michroma', sans-serif;
   }
+
+  .continer {
+    display: block;
+  }
+  .continer button img {
+    width: 400px;
+    height: 250px;
+  }
+  .continer {
+    margin-left: 23px;
+  }
+  .body img {
+    width: 420px;
+    height: 262px;
+  }
+  .tile {
+    font-size: 14px;
+    width: 420px;
+  }
 }
 @media only screen and (max-width: 430px) {
+  .continer {
+    margin-left: 13px;
+  }
   .footer-right {
     margin-top: 10px;
     margin-left: 40px;
@@ -749,7 +771,28 @@
     margin-right: 10px;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .body img {
+    width: 400px;
+    height: 249px;
+  }
+  .tile {
+    font-size: 14px;
+    width: 400px;
+  }
+  .continer {
+    margin-left: 7px;
+  }
+}
 @media only screen and (max-width: 410px) {
+  .continer button img {
+    width: 370px;
+    height: 230px;
+  }
+  .continer {
+    margin-left: 18px;
+  }
   .modalDialog > div {
     position: relative;
     top: 43%;
@@ -780,6 +823,9 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .continer {
+    margin-left: 11px;
+  }
   .modal__footer p{
     color: var(--color-white);
     text-align: center;
@@ -812,7 +858,17 @@
   }
 }
 @media only screen and (max-width: 390px) {
-  
+  .body img {
+    width: 385px;
+    height: 240px;
+  }
+  .tile {
+    font-size: 14px;
+    width: 385px;
+  }
+  .continer {
+    margin-left: 6px;
+  }
   .modalDialog > div {
     position: relative;
     top: 43%;
@@ -833,6 +889,9 @@
   }
 }
 @media only screen and (max-width: 380px) {
+  .continer {
+    margin-left: 3px;
+  }
   .modal__footer p{
     color: var(--color-white);
     text-align: center;
@@ -853,7 +912,9 @@
   .footer-right ul {
     margin-left: -27px;
   }
-  
+  .continer {
+    margin-left: 0px;
+  }
 }
 @media only screen and (max-width: 350px) {
 
