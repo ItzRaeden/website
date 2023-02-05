@@ -634,15 +634,16 @@ figcaption {
 .modal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .modal__content {
   border: 3px solid #19181d;
-  position: relative;
   width: 450px;
   max-width: 90%;
   background-color: var(--color-secondary);
   padding: 20px 50px 0px;
+  position: fixed;
 }
 .modal__content h1{
   margin-bottom: 7px;
@@ -710,15 +711,16 @@ figcaption {
 .medal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .medal__content {
   border: 3px solid #19181d;
-  position: relative;
   width: 450px;
   max-width: 90%;
   background-color: var(--color-secondary);
   padding: 20px 50px 0px;
+  position: fixed;
 }
 .medal__content h1{
   margin-bottom: 7px;

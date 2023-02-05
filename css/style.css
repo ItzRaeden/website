@@ -531,7 +531,6 @@ li .imgpositioning img {
 .about {
   background-color: var(--color-primary);
   position: relative;
-  z-index: 1;
 }
 
 .okok {
@@ -892,6 +891,7 @@ li .imgpositioning img {
 .modal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .modal__content {
@@ -901,6 +901,7 @@ li .imgpositioning img {
   max-width: 90%;
   background-color: var(--color-secondary);
   padding: 20px 50px 0px;
+  position: fixed;
 }
 
 .modal__content h1 {
@@ -970,11 +971,12 @@ li .imgpositioning img {
 .medal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .medal__content {
   border: 3px solid #19181d;
-  position: relative;
+  position: fixed;
   width: 450px;
   max-width: 90%;
   background-color: var(--color-secondary);

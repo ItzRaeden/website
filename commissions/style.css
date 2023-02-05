@@ -325,6 +325,7 @@ a:is(:link, :active, :visited).active {
 .modal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .modal__content {
@@ -334,6 +335,7 @@ a:is(:link, :active, :visited).active {
   max-width: 90%;
   background-color: var(--color-secondary);
   padding: 20px 50px 0px;
+  position: fixed;
 }
 .modal__content h1{
   margin-bottom: 7px;
@@ -400,6 +402,7 @@ a:is(:link, :active, :visited).active {
 .medal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .medal__content {
@@ -409,6 +412,7 @@ a:is(:link, :active, :visited).active {
   max-width: 90%;
   background-color: var(--color-secondary);
   padding: 20px 50px 0px;
+  position: fixed;
 }
 .medal__content h1{
   margin-bottom: 7px;

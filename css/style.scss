@@ -177,7 +177,7 @@
   background-image: url("../images/large_guy.png");
   width: 370px;
   height: 444px;
-  background-size: contain;
+  background-size: contain; 
   -webkit-transition: 0.5s ease-in-out; 
   -moz-transition: 0.5s ease-in-out; 
   -o-transition: 0.5s ease-in-out; 
@@ -504,7 +504,7 @@
 .about {
   background-color: var(--color-primary);
   position: relative;
-  z-index: 1;
+  
 }
 .okok {
   width: 77%;
@@ -831,6 +831,7 @@
 .modal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .modal__content {
@@ -840,6 +841,7 @@
   max-width: 90%;
   background-color: var(--color-secondary);
   padding: 20px 50px 0px;
+  position: fixed;
 }
 .modal__content h1{
   margin-bottom: 7px;
@@ -906,11 +908,12 @@
 .medal:target {
   visibility: visible;
   opacity: 1;
+  position: fixed;
 }
 
 .medal__content {
   border: 3px solid #19181d;
-  position: relative;
+  position: fixed;
   width: 450px;
   max-width: 90%;
   background-color: var(--color-secondary);
