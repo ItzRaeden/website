@@ -821,6 +821,7 @@ figcaption {
   padding: 0 10px;
   transition: 0.3s ease-in-out;
   border: 2px solid #19181d ;
+  color: var(--color-black);
 }
 .close-modal:hover {
   color: var(--color-white);
