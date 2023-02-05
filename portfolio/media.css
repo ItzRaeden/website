@@ -593,6 +593,12 @@
   }
 }
 @media only screen and (max-width: 450px) {
+  .btn-left {
+    margin-right: 0px;
+  }
+  .btn-right {
+    margin-left: 0px;
+  }
 
   .section-1 .gallery1 a img {
     margin-right: 0px;
