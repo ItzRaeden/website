@@ -586,6 +586,17 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .footer {
+    z-index: 1;
+    padding: 60px 60px 100px;
+  }
+  .footer h6 {
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -27px;
+  }
   .slider {
     display: block;
   }
@@ -730,7 +741,7 @@
       align-items: center;
     }
     .footer-left img {
-      background-color: var(--color-secondary);
+      background-color: var(--color-primary);
       width: 100px;
       height: 100px;
       border-radius: 50%;
@@ -752,7 +763,7 @@
       font-size: 12px;
     }
     .footer {
-      background-color: var(--color-primary);
+      background-color: var(--color-secondary);
     }
     .icon-up li .dik {
       width: 50px;
@@ -866,11 +877,11 @@
     font-family: 'Michroma', sans-serif;
   }
   .footer-left img {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     width: 110px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #379683;
+    border: 3px solid #19181d;
     margin-right: 10px;
   }
  
@@ -955,11 +966,11 @@
     margin-right: 0px;
   }
   .footer-left img {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     width: 120px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #379683;
+    border: 3px solid #19181d;
     margin-right: 10px;
   }
   
@@ -1012,11 +1023,11 @@
 }
 @media only screen and (max-width: 390px) {
   .footer-left img {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     width: 128px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #379683;
+    border: 3px solid #19181d;
     margin-right: 10px;
   }
   .modal__footer p{
@@ -1166,11 +1177,11 @@
         align-items: center;
       }
       .footer-left img {
-        background-color: var(--color-secondary);
+        background-color: var(--color-primary);
         width: 110px;
         height: 100px;
         border-radius: 50%;
-        border: 3px solid #379683;
+        border: 3px solid #19181d;
         margin-right: 7px;
       }
       .footer-right {

@@ -342,8 +342,20 @@
   
   .footer {
     z-index: 1;
-    padding: 60px;
+    padding: 60px 60px 10px;
     background-color: var(--color-secondary);
+  }
+  .footer h6 {
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 450px) {
+    .footer h6 {
+      margin-bottom: 20px;
+    }
   }
   .footer-left img {
     background-color: var(--color-primary);
@@ -352,6 +364,7 @@
     border-radius: 50%;
     border: 3px solid #19181d;
   }
+  
   .footer-left {
     display: flex;
   }
