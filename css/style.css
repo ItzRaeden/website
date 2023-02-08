@@ -45,6 +45,23 @@ a:is(:link, :active, :visited).active {
   margin: 0.3rem 0.8rem;
 }
 
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #19181d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #44d096;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
 /*Loader*/
 .loader-wrapper {
   width: 100%;
@@ -62,8 +79,7 @@ a:is(:link, :active, :visited).active {
 .loader {
   display: inline-block;
   position: relative;
-  -webkit-animation: loader 2s infinite ease;
-          animation: loader 2s infinite ease;
+  animation: loader 2s infinite ease;
 }
 
 .loader-inner {
@@ -71,8 +87,7 @@ a:is(:link, :active, :visited).active {
   display: inline-block;
   width: 100%;
   background-color: #fff;
-  -webkit-animation: loader-inner 2s infinite ease-in;
-          animation: loader-inner 2s infinite ease-in;
+  animation: loader-inner 2s infinite ease-in;
 }
 
 .loader img {
@@ -288,27 +303,11 @@ a:is(:link, :active, :visited).active {
 }
 
 .floating {
-  -webkit-animation-name: floating;
-          animation-name: floating;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
   color: white;
-}
-
-@-webkit-keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 10px);
-  }
-  100% {
-    transform: translate(0, 0px);
-  }
 }
 
 @keyframes floating {
