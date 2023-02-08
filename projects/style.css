@@ -339,7 +339,23 @@
     z-index: 10;
   }
   
-  
+  /*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #19181d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #44d096;
+  transition: 0.5s ease-in-out;
+}
+
   .footer {
     z-index: 1;
     padding: 60px 60px 10px;
