@@ -1163,5 +1163,37 @@ figcaption {
 
 
 
+/*Skill*/
+
+.stuff {
+  background-color: var(--color-secondary);
+  padding: 30px 0;
+}
+.stuff h1 {
+  font-size: 42px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  padding-bottom: 21px;
+}
+.skill {
+  margin: auto;
+  width: 80%;
+
+}
+.skill ul {
+  display: flex;
+  justify-content: center;
+}
+.skill ul li {
+  padding: 0 7px;
+}
+.skill ul li img {
+  transition: 0.4s ease-in-out;
+}
+.skill ul li img:hover {
+  transform: scale(1.03);
+}
+
+
 
 @import './media';
