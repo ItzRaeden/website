@@ -1070,6 +1070,7 @@ li .imgpositioning img {
   font-family: "Press Start 2P", cursive;
   text-align: center;
   text-shadow: 1px 1px 3px #000000;
+  padding-right: 17px;
 }
 
 .slider img {
@@ -2143,6 +2144,9 @@ figcaption {
     border-radius: 50%;
     border: 3px solid #19181d;
     margin-right: 10px;
+  }
+  .slider h1 {
+    font-size: 20.5px;
   }
 }
 @media only screen and (max-width: 400px) {
