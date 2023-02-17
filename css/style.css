@@ -2255,6 +2255,9 @@ figcaption {
   .hero img {
     margin-left: -21px;
   }
+  .slider h1 {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .clients {
