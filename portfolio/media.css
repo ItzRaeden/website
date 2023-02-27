@@ -455,6 +455,15 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .item-menu button {
+    font-size: 16px;
+    padding: 7px 16px;
+    margin: 0px 7px;
+  }
+  .item-menu .active {
+    font-size: 16px;
+    padding: 7px 16px;
+  }
 }
 @media only screen and (min-width: 2350px) {
   .the-gallery{
