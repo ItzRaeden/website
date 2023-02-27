@@ -50,6 +50,7 @@ a:is(:link, :active, :visited).active {
 }
 .header-logo img {
   width: 70%;
+  
 }
 
 /*Header*/
@@ -169,7 +170,6 @@ position: absolute;
 /*Carousel*/
 
 .section {
-  padding-top: 15px;
   background-color: var(--color-primary);
 }
 
@@ -477,7 +477,9 @@ figcaption {
   color: var(--color-white);
 }
 
-
+.dummy {
+  display: none;
+}
 
 /*2nd Slider*/
 
@@ -485,8 +487,8 @@ figcaption {
   margin: 0px auto;
   max-width: 940px;
   display: none;
-  padding-top: 160px;
-  padding-bottom: 40px;
+  padding-top: 200px;
+  padding-bottom: 20px;
   background-color: var(--color-primary);
 }
 .slider img {
