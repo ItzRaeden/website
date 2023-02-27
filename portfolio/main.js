@@ -122,4 +122,10 @@
       };
 
 
+      $('.item-menu button').on('click', function(){
+        $('.item-menu button').removeClass('active');
+        $(this).addClass('active')
+      });
+
+
 }) (jQuery);

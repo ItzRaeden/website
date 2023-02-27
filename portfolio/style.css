@@ -26,7 +26,7 @@
   box-sizing: border-box;
 }
 .main-content {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
 }
@@ -170,6 +170,7 @@ position: absolute;
 
 .section {
   padding-top: 15px;
+  background-color: var(--color-primary);
 }
 
 .carousel {
@@ -179,7 +180,7 @@ position: absolute;
 .container {
   width: 87%;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 35px;
   margin-top: 5px;
 }
 .carousel {
@@ -405,10 +406,7 @@ figcaption {
 
 .footer {
   z-index: 1;
-  padding-top: 60px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 0px;
+  padding: 60px 60px 15px;
   background-color: var(--color-primary);
 }
 .footer h6 {
@@ -417,11 +415,6 @@ figcaption {
   font-size: 12px;
   text-align: center;
   margin-top: 50px;
-}
-@media only screen and (max-width: 450px) {
-  .footer h6 {
-    margin-bottom: 13px;
-  }
 }
 .footer-left img {
   background-color: var(--color-secondary);
@@ -492,9 +485,9 @@ figcaption {
   margin: 0px auto;
   max-width: 940px;
   display: none;
-  margin-top: 160px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-top: 160px;
+  padding-bottom: 40px;
+  background-color: var(--color-primary);
 }
 .slider img {
   width: 100%;
@@ -795,7 +788,7 @@ figcaption {
   display: flex; 
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   text-shadow: 1px 1px 3px #000000;
 }
 
@@ -820,21 +813,20 @@ figcaption {
 }
 .viewer5 {
   background-color: var(--color-secondary);
-  padding-bottom: 70px;
 }
 
 
 
-
-
-.continer {
-  width: 80%;
+.outside {
+  background-color: var(--color-secondary);
+  width: 87%;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
+}
+.the-gallery{
+  margin-left: 40px;
 }
 
-.btn {
+.bton {
   cursor: pointer;
   outline: none;
   background: none;
@@ -843,14 +835,9 @@ figcaption {
 	padding: 0;
 	font: inherit;
 }
-.btn-left {
-  margin-right: 2px;
-}
-.btn-right {
-  margin-left: 2px;
-}
 
-.btn:active {
+
+.bton:active {
   transform: scale(0.97);
 }
 
@@ -872,7 +859,7 @@ figcaption {
 
 .metal {
   position: fixed;
-  top: -50%;
+  top: -60%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: top 0.3s ease-in-out;
@@ -915,6 +902,7 @@ figcaption {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
+  z-index: 20;
 }
 
 #overlay.active {
@@ -923,4 +911,50 @@ figcaption {
 .body img {
   width: 870px;
   height: 543px;
+}
+
+
+.outside {
+  padding-bottom: 40px;
+}
+.item-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.item-menu button {
+  font-size: 14px;
+  font-family: 'Michroma', sans-serif;
+  font-weight: 600;
+  background-color: var(--color-secondary);
+  padding: 5px 13px;
+  margin: 0px 7px;
+  border: 2px solid #19181d;
+  cursor: pointer;
+}
+.item-menu .active {
+  font-size: 14px;
+  font-family: 'Michroma', sans-serif;
+  font-weight: 600;
+  background-color: var(--color-primary);
+  padding: 5px 13px;
+  margin: 0px 7px;
+  color: var(--color-white);
+}
+.btn-left {
+  margin-right: 5px;
+}
+.btn-right {
+  margin-left: 5px;
+}
+.continer {
+  display: flex;
+  justify-content: center;
+}
+.model {
+  margin-bottom: 6px;
+}
+.pix {
+  margin-bottom: 6px;
 }
