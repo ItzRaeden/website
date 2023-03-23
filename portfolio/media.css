@@ -88,7 +88,9 @@
     width: 650px;
     height: 406px;
   }
-  
+  .section {
+    padding-top: 20px;
+  }
 }
 @media only screen and (min-width: 1500px) {
   .section {
@@ -427,8 +429,9 @@
 
   figcaption {
     margin-bottom: 31.7%;
-    font-size: 24px;
+    font-size: 27px;
   }
+  
   .gallery-title h3 {
     font-size: 53px;
   }
@@ -465,6 +468,7 @@
     padding: 7px 16px;
   }
 }
+
 @media only screen and (min-width: 2350px) {
   .the-gallery{
     margin-left: 380px;

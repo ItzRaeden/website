@@ -171,6 +171,7 @@ position: absolute;
 
 .section {
   background-color: var(--color-primary);
+  padding-top: 10px;
 }
 
 .carousel {
