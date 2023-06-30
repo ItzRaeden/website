@@ -108,7 +108,8 @@ a:is(:link, :active, :visited).active {
   top: 7.2%;
   right: 5%;
   font-size: 10px;
-  background-color: #198754;
+  background-color: #dc9613
+  ;
   border-radius: 4px;
   transition: 0.4s;
   z-index: 10;
@@ -116,8 +117,29 @@ a:is(:link, :active, :visited).active {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .commission:hover {
-  background-color: #157347;
+  background-color: #dc9613
+  ;
 }
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #c1c1c1
+  ;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  right: 10%;
+  font-size: 10px;
+}
+.commission:hover .tooltiptext {
+  visibility: visible;
+  transition: 0.4s;
+}
+
 .header-logo img {
   width: 70%;
 }
