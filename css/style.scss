@@ -7,7 +7,7 @@
    
   :root {
     --color-primary: #19181d;
-    --color-secondary: #379683; 
+    --color-secondary: #331e7a;    ; 
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -57,7 +57,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44d096;
+  background: #331e7a;
   transition: 0.5s ease-in-out;
 }
 
@@ -414,7 +414,7 @@
     line-height:57px;
     text-align:center;
     cursor:pointer;	
-    background:rgba(0,0,0,0.1);
+    background:#19181d;
     z-index:100;
     
     -webkit-transition: all 0.1s ease;
@@ -425,11 +425,11 @@
   }
   
   .btns:hover{
-    background:rgba(0,0,0,0.3);	
+    background:#19181d;	
   }
   
-  #next{right:-50px; border-radius:7px 0px 0px 7px;}
-  #previous{left:-50px; border-radius:0px 7px 7px 7px;}
+  #next{right:-50px;}
+  #previous{left:-50px;}
   #counter{
     top: 30px; 
     right:35px; 
@@ -685,8 +685,8 @@
 
   height: 390px;
   width: 550px;
-  border: 5px solid #379683;
-  border-bottom: 45px solid #379683;
+  border: 5px solid #331e7a;
+  border-bottom: 45px solid #331e7a;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   overflow: hidden;
 }
@@ -722,6 +722,33 @@
 }
 
 
+//*Contact me*//
+
+.Contact_me {
+  background-color: var(--color-primary);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.Contact_me h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 20px;
+}
+.Contact_me h2 {
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.Contact_me h3 {
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+  font-size: 20px;
+}
+
+
+
 
 .footer {
   z-index: 1;
@@ -740,8 +767,7 @@
   background-color: var(--color-primary);
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border: 3px solid #19181d;
+  border: 3px solid #30f4ec;
 }
 .footer-left {
   display: flex;
@@ -1017,7 +1043,6 @@
   padding-bottom: 35px;
 }
 .client img {
-  border-radius: 50%;
   border: 3px solid #19181d;
   margin-left: 10px;
   transition: 0.2s linear;
@@ -1216,6 +1241,21 @@ figcaption {
   transform: scale(1.03);
 }
 
+
+/*Floating animation*/
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 5px); }
+  100%   { transform: translate(0, -0px); }    
+}
 
 
 @import './media';

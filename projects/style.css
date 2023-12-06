@@ -7,7 +7,7 @@
   
   :root {
     --color-primary: #19181d;
-    --color-secondary: #379683;
+    --color-secondary: #331e7a;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -212,8 +212,8 @@
   
     height: 390px;
     width: 550px;
-    border: 5px solid #379683;
-    border-bottom: 45px solid #379683;
+    border: 5px solid #331e7a;
+    border-bottom: 45px solid #331e7a;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
   }
@@ -374,7 +374,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44d096;
+  background: #331e7a;
   transition: 0.5s ease-in-out;
 }
 
@@ -399,8 +399,7 @@
     background-color: var(--color-primary);
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    border: 3px solid #19181d;
+    border: 3px solid #30f4ec;
   }
   
   .footer-left {

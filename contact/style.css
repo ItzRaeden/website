@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #19181d;
-  --color-secondary: #379683;
+  --color-secondary: #331e7a;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -221,7 +221,7 @@ input {
   width: 100%;
   color: var(--color-white);
   resize: none;
-  border: 2px solid #379683;
+  border: 2px solid #331e7a;
   font-family: 'Michroma', sans-serif;
 }
 textarea {
@@ -235,7 +235,7 @@ textarea {
   width: 100%;
   color: var(--color-white);
   resize: none;
-  border: 2px solid #379683;
+  border: 2px solid #331e7a;
   font-family: 'Michroma', sans-serif;
 }
 .name {
@@ -260,7 +260,7 @@ button {
   font-family: 'Michroma', sans-serif;
 }
 button:hover {
-  background-color: #379683;
+  background-color: #331e7a;
 }
 
 /*Scrollbar*/
@@ -276,7 +276,7 @@ button:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44d096;
+  background: #331e7a;
   transition: 0.5s ease-in-out;
 }
 
@@ -301,8 +301,7 @@ button:hover {
   background-color: var(--color-primary);
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border: 3px solid #19181d;
+  border: 3px solid #30f4ec;
 }
 .footer-left {
   display: flex;

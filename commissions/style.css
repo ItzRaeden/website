@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #19181d;
-  --color-secondary: #379683;
+  --color-secondary: #331e7a;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -255,7 +255,7 @@ a:is(:link, :active, :visited).active {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44d096;
+  background: #331e7a;
   transition: 0.5s ease-in-out;
 }
 
@@ -280,8 +280,7 @@ a:is(:link, :active, :visited).active {
   background-color: var(--color-primary);
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border: 3px solid #19181d;
+  border: 3px solid #30f4ec;
 }
 .footer-left {
   display: flex;
@@ -526,7 +525,7 @@ a:is(:link, :active, :visited).active {
 }
 .section-1:hover {
   transform: translateY(-5px);
-  border: 5px solid #379683;
+  border: 5px solid #331e7a;
 }
 .text-container h1 {
   font-size: 28px;
@@ -576,7 +575,7 @@ a:is(:link, :active, :visited).active {
 }
 .section-2 .sub-1:hover {
   transform: translateY(-5px);
-  border: 5px solid #379683;
+  border: 5px solid #331e7a;
 }
 .section-2 .sub-2 {
   width: 540px;
@@ -587,7 +586,7 @@ a:is(:link, :active, :visited).active {
 }
 .section-2 .sub-2:hover {
   transform: translateY(-5px);
-  border: 5px solid #379683;
+  border: 5px solid #331e7a;
 }
 
 
@@ -601,7 +600,7 @@ a:is(:link, :active, :visited).active {
 }
 .section-3:hover {
   transform: translateY(-5px);
-  border: 5px solid #379683;
+  border: 5px solid #331e7a;
 }
 .yes {
   margin-top: 9px;

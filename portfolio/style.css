@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #19181d;
-  --color-secondary: #379683;
+  --color-secondary: #331e7a;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -241,22 +241,28 @@ position: absolute;
   margin-left: 0%;
 }
 .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
-  box-shadow: 0px 0px 0px 3px #379683;
+  box-shadow: 0px 0px 0px 3px #331e7a
+  ;
 }
 .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
-  box-shadow: 0px 0px 0px 3px #379683;
+  box-shadow: 0px 0px 0px 3px #331e7a
+  ;
 }
 .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
-  box-shadow: 0px 0px 0px 3px #379683;
+  box-shadow: 0px 0px 0px 3px #331e7a
+  ;
 }
 .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
-  box-shadow: 0px 0px 0px 3px #379683;
+  box-shadow: 0px 0px 0px 3px #331e7a
+  ;
 }
 .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
-  box-shadow: 0px 0px 0px 3px #379683;
+  box-shadow: 0px 0px 0px 3px #331e7a
+  ;
 }
 .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
-  box-shadow: 0px 0px 0px 3px #379683;
+  box-shadow: 0px 0px 0px 3px #331e7a
+  ;
 }
 .carousel__slides {
   position: relative;
@@ -301,7 +307,7 @@ position: absolute;
   bottom: 0;
   height: 83%;
   z-index: 2;
-  border: 5px solid #379683;
+  border: 5px solid #331e7a;
 }
 .carousel__slide img {
   display: block;
@@ -421,7 +427,7 @@ figcaption {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #44d096;
+  background: #331e7a;
   transition: 0.5s ease-in-out;
 }
 
@@ -443,8 +449,7 @@ figcaption {
   background-color: var(--color-secondary);
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border: 3px solid #379683;
+  border: 3px solid #30f4ec;
 }
 .footer-left {
   display: flex;
@@ -496,7 +501,7 @@ figcaption {
   transition: 0.4s ease-in-out;
 }
 .icon-up li a:hover {
-  background-color: #379683;
+  background-color: #331e7a;
   color: var(--color-white);
 }
 
@@ -823,6 +828,7 @@ figcaption {
 .continer button img {
   width: 550px;
   height: 343px;
+  border: 4px solid #19181d;
 }
 .viewer {
   background-color: var(--color-secondary);
@@ -879,7 +885,7 @@ figcaption {
 .close-modal:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
-  border: 2px solid #379683;
+  border: 2px solid #331e7a;
 }
 
 .metal {
@@ -896,7 +902,7 @@ figcaption {
   background-color: var(--color-primary);
   width: 870px;
   padding-left: 10px;
-  border: 2px solid #379683;
+  border: 2px solid #331e7a;
   padding-top: 3px;
   padding-bottom: 5px;
 }
